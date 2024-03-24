@@ -1,20 +1,11 @@
 ### --- OOP Email Simulator --- ###
 
-# --- Email Class --- #
-# Create the class, constructor and methods to create a new Email object.
-
-    # Declare the class variable, with default value, for emails. 
- 
-    # Initialise the instance variables for emails.
-
-    # Create the method to change 'has_been_read' emails from False to True.
-
 # --- Lists --- #
-# Initialise an empty list to store the email objects.
+
 inbox = []
 
 # --- Functions --- #
-# Build out the required functions for your program.
+
 class Email():
     # Class Variables
     has_been_read = False 
@@ -43,8 +34,6 @@ def list_emails():
 
 
 def read_email(index):
-
-    # Create a function which displays a selected email. 
     # Once displayed, call the class method to set its 'has_been_read' variable to True.
     if 1 <= index <= len(inbox):
         email = inbox[index] 
@@ -59,7 +48,7 @@ def read_email(index):
 
 # Call the function to populate the Inbox for further use in your program.
 populate_inbox()
-# Fill in the logic for the various menu operations.
+
 menu = True
 
 while True:
