@@ -19,3 +19,4 @@ Follow the prompts to interact with the email simulator.
 Clone the repository to your local machine.
 Navigate to the project directory.
 Run the email_simulator.py file using Python: python email_simulator.py.
+
